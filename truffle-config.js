@@ -28,6 +28,15 @@ module.exports = {
     },
   },
 
+  mocha: {
+    reporter: "eth-gas-reporter",
+    reporterOptions: {
+      currency: "USD",
+      gasPrice: 30,
+      ethPrice: 1686.20
+    },
+  },
+
   compilers: {
     solc: {
       version: "0.8.17",

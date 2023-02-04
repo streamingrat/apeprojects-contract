@@ -5,5 +5,8 @@
     "dotenv": "^16.0.3",
     "truffle": "^5.7.4",
     "truffle-plugin-verify": "^0.6.1"
+  },
+  "devDependencies": {
+    "eth-gas-reporter": "github:streamingrat/eth-gas-reporter"
   }
 }
